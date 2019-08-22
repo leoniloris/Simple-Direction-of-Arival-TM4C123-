@@ -9,7 +9,7 @@
 static float input_delayed[N_samples];
 
 void lms(float *input,float *destination,float *W){
-    int a=0,aaaaaa;
+    int a=0;
     float y;
     float error;
     float squared_norm;
